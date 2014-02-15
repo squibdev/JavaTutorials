@@ -1,0 +1,89 @@
+OBJECTS
+-----------
+
+All objects have state and behavior
+
+Ex. Work Phone
+States:
+	Power on
+	Power off
+	Line 1 in use
+	Line 2 in use
+	Line 1 on hold
+	Line 2 on hold
+Behaviors:
+	Dial number
+	Call number
+	View messages
+	List directories
+	Volume Up
+	Volume Down
+	Speaker
+	Mute
+
+Ex. Bicycle
+States:
+	Current gear
+	Current pedal cadence
+	Current speed
+Behaviors:
+	Changing gear
+	Change pedal cadence
+	Applying brakes
+	
+A Java Object contains fields (variables), which store its state. 
+It exposes behaviors through methods (functions).
+
+Data Encapsulation:
+The process of hiding an object internal state and requiring that all interaction
+be performed through its methods.
+
+Modularity:
+Source code for one object and be written and maintain independent of the source
+code for other objects.
+
+Information-hiding:
+Internal details of an object are hidden if methods must be used to access from outside world.
+
+Code re-use:
+Already existing objects can be used by new objects.
+
+Pluggability:
+Objects can be added/removed/replaced easily, so that the application can be fixed seamlessly
+
+CLASSES
+-----------
+
+Classes make up the blueprint for new objects of that type. In the bicycle example, the bicycle
+we create is an instance of the class of objects known as bicycles.
+
+INHERITANCE
+-----------
+
+Inheritance is the ability of classes to inherit common state/behavior from other classes. 
+Ex. the Bicycle class contains MountainBike, RoadBike, TandemBike
+
+Subclasses are created by using 'extends' in the class declaration:
+class MountainBike extends Bicycle {}
+
+INTERFACES
+-----------
+
+A collection of an object's methods form the object's interface. The buttons on a TV are 
+the interface between the user and the electrical wiring inside the TV.
+
+Use 'implements' to use an interface:
+
+interface Bicycle {
+    void changeCadence(int newValue);
+    void changeGear(int newValue);
+    void speedUp(int increment);
+    void applyBrakes(int decrement);
+}
+
+class ACMEBicycle implements Bicycle {}
+
+PACKAGES
+-----------
+
+A namespace that organizes related classes and interfaces

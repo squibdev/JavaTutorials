@@ -1,0 +1,28 @@
+DECLARING CLASSES
+-----------
+
+The class body is the area between braces in a class
+
+Class declarations can include the following components:
+	1. Modifiers (public, private, etc)
+	2. Class Name
+	3. Parent class, preceded by 'extends'
+	4. A comma separated list of interfaces implemented by the class, using 'implements'
+	5. The class body, surrounded by braces
+	
+Method declarations can include the following components:
+	1. Modifiers (public, private, etc)
+	2. The return type (int to return ints, void to return nothing)
+	3. The method name
+	4. The parameter list in parenthesis
+	5. An exception list
+	6. The method body, enclosed in braces
+	
+Method name + method paramters = method signature
+
+PASSING INFORMATION TO A METHOD OR CONSTRUCTOR
+-----------
+
+Methods cannot be passed into methods, but objects
+can be passed into methods and the methods of that
+object can be invoked

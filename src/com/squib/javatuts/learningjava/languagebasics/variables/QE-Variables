@@ -1,0 +1,21 @@
+1. The term "instance variable" is another name for ___.
+Non-static fields
+
+2. The term "class variable" is another name for ___.
+Static fields
+
+3. A local variable stores temporary state; it is declared inside a ___.
+Method
+
+4. A variable declared within the opening and closing parenthesis of a method signature 
+is called a ____.
+Parameter
+
+5. What are the eight primitive data types supported by the Java programming language?
+byte, short, long, int, double, float, char, boolean
+
+6. Character strings are represented by the class ___.
+java.lang.String
+
+7. An ___ is a container object that holds a fixed number of values of a single type.
+Array

@@ -1,0 +1,28 @@
+1. Real-world objects contain ___ and ___.
+State, behavior
+
+2. A software object's state is stored in ___.
+Fields
+
+3. A software object's behavior is exposed through ___.
+Methods
+
+4. Hiding internal data from the outside world, and accessing it only through publicly 
+exposed methods is known as data ___.
+Encapsulation
+
+5. A blueprint for a software object is called a ___.
+Class
+
+6. Common behavior can be defined in a ___ and inherited into a ___ using the ___ keyword.
+Superclass, subclassclass, extends
+
+7. A collection of methods with no implementation is called an ___.
+Interface
+
+8. A namespace that organizes classes and interfaces by functionality is called a ___.
+Package
+
+9. The term API stands for ___?
+Application Programming Interface
+

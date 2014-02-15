@@ -1,0 +1,34 @@
+VARAIBLES
+-----------
+
+Instance Variables (Non-Static Fields):
+Values are unique to each instance of a class (each object). The currentSpeed of one instance
+of Bicycle can be different and spearate from the currentSpeed of another.
+
+Class Variables (Static Fields):
+Value applies to all instances of the class. For instance, numGears = 6 in the bicycle example
+applies to all instances, and only one copy needs to be made.
+
+Local Variables
+Variables declared within a method, only accessible from within the method.
+
+Parameters
+
+Fields: Class & Instance Variables; Variables: Locals and Params
+
+Name variables as so: thisIsAVariable; if it is static and final, as so: THIS_IS_A_VARIABLE
+
+PRIMITIVE DATA TYPES
+-----------
+
+byte		short
+long		double
+float		int
+char		boolean
+
+Literal: fixed value
+
+Supported Number Systems (26 as example):
+Decimal:     int decVal = 26
+Hexadecimal: int hexVal = 0x1a;
+Binary:      int binVal = 0b11010;
